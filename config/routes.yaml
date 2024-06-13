@@ -1,0 +1,11 @@
+index:
+   path: /
+   controller: App\Controller\DefaultController::index
+
+counter:
+   path: /visit
+   controller: App\Controller\DefaultController::count
+
+sum:
+   path: /get_traffic
+   controller: App\Controller\DefaultController::get_traffic
